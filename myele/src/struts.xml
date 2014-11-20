@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.1//EN" "http://struts.apache.org/dtds/struts-2.1.dtd">
+<struts>
+	<package name="myele" extends="struts-default">
+       	<action name="Login" class="myele.LoginAction">
+       		<result name="success">/Show.jsp</result>
+       		<result name="failed">/Register.jsp</result>
+       	</action>
+       	
+       	<action name="Regist" class="myele.RegisterAction">
+       		<result name="success">/Login.jsp</result>
+       		<result name="failed">/Register.jsp</result>	
+       	</action>
+    </package>
+</struts>
