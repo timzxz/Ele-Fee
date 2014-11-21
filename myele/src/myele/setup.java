@@ -1,6 +1,4 @@
 package myele;
-
-/*Using:设置电梯数量，将所有电梯流水号清零，新建用户，设置用户信息,清楚和删除*/
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;

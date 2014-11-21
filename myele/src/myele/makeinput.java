@@ -1,8 +1,5 @@
 package myele;
-
-/* param: eleuse*/
 import javax.swing.JOptionPane;
-
 import java.io.*;
 import java.sql.*;
 import java.text.SimpleDateFormat;
@@ -133,7 +130,7 @@ public class makeinput {
 		int ret=0;
 		String url="jdbc:mysql://localhost:3306/eledb";
 		String account="root";
-		String password="agao0930yjc";
+		String password="19940427open";
 		Connection link;
 		Class.forName("com.mysql.jdbc.Driver");
 		link=DriverManager.getConnection(url,account,password);
