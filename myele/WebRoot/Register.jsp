@@ -6,7 +6,7 @@
 <html>
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-		<title>登陆</title>
+		<title>注册</title>
 		<script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.8.0.js">
 		</script>
 		<script type="text/javascript">
@@ -29,10 +29,12 @@
 	
 	<body>
 		<h1>Elevator Fee Query System: Register</h1>
-			<s:form action = "Regist">
-				<p>Usrname: <s:textfield name = "Usrname" style="text-align:center;"/></p>
-				<p>Usrpass: <s:textfield name = "Usrpass" style="text-align:center;"/></p>
-					<s:submit value = "Submit" style="text-align:center;"/>
-			</s:form>
+			<center>
+				<form action="Regist">
+				        <p>Username:  <input type="text" name="Usrname"  /></p>
+				        <p>Password:  <input type="password" name="Usrpass"  /></p>
+				        <input type="submit" value="submit"  />
+				</form>
+			</center>
 	</body>
 </html>

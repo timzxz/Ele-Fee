@@ -49,7 +49,7 @@ public class LoginAction {
 		Connection con = null;
 		try{
 			Class.forName("com.mysql.jdbc.Driver");
-			con = DriverManager.getConnection("jdbc:mysql://localhost:3306/eledb","root","agao0930yjc");
+			con = DriverManager.getConnection("jdbc:mysql://w.rdc.sae.sina.com.cn:3307/app_elefee","nlnz5z0xmj","hy2m2x31415xkihm2kw3ixkzj12yw00l1mklxzh1");
 		}catch(Exception e){
 			System.out.println("Connect Fail:"+e.getMessage());
 		}

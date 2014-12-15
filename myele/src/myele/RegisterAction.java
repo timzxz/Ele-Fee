@@ -22,10 +22,8 @@ public class RegisterAction {
 	public static Connection getConnection(){
 		Connection con = null;
 		try{
-			System.out.println("1");
 			Class.forName("com.mysql.jdbc.Driver");
-			System.out.println("2");
-			con = DriverManager.getConnection("jdbc:mysql://localhost:3306/eledb","root","agao0930yjc");
+			con = DriverManager.getConnection("jdbc:mysql://w.rdc.sae.sina.com.cn:3307/app_elefee","nlnz5z0xmj","hy2m2x31415xkihm2kw3ixkzj12yw00l1mklxzh1");
 		}catch(Exception e){
 			System.out.println("3");
 			System.out.println("Connect Fail:"+e.getMessage());

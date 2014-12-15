@@ -26,13 +26,19 @@
 			text-align:center; font-family:"Comic Sans MS", cursive, sans-serif;
 		}
 	</style>
+	<style type="text/css">
+	.middle{margin:0 auto;width:600px;}
+	</style>
 	
 	<body>
 		<h1>Elevator Fee Query System Login</h1>
-			<s:form action = "Login">
-				<p>Usrname: <s:textfield name = "userid" style="text-align:center;"/></p>
-				<p>Usrpass: <s:textfield name = "password" style="text-align:center;"/></p>
-					<s:submit value = "Submit" style="text-align:center;"/>
-			</s:form>
+			<center>
+				<form action="Login">
+				        <p>Username:  <input type="text" name="userid"  /></p>
+				        <p>Password:  <input type="password" name="password"  /></p>
+				        <p>Remember:  <input type="checkbox" name="Rem" /></p>
+				        <input type="submit" value="submit"  />
+				 </form>
+			</center>
 	</body>
 </html>
