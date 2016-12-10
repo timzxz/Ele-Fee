@@ -13,8 +13,8 @@ public class analysis{
 			count[i]=0;
 		usernum=getuserinfo();
 		String url="jdbc:mysql://localhost:3306/eledb";
-		String account="root";
-		String password="19940427open";
+		String account="*";
+		String password="*";
 		ResultSet result;
 		Connection link;
 		Class.forName("com.mysql.jdbc.Driver");
@@ -48,8 +48,8 @@ public class analysis{
 	public static int getuserinfo() throws SQLException,ClassNotFoundException{
 		int ret=0;
 		String url="jdbc:mysql://localhost:3306/eledb";
-		String account="root";
-		String password="19940427open";
+		String account="*";
+		String password="*";
 		Connection link;
 		Class.forName("com.mysql.jdbc.Driver");
 		link=DriverManager.getConnection(url,account,password);
